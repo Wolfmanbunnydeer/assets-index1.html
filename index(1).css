@@ -1,73 +1,50 @@
 body {
-    background-color: lightblue;
+    background-color: pink;
+    font-size: 50px
+}
+
+.tiledbackground {
+    background-image: url("https://i.postimg.cc/XNKRmsns/unicorncolor.jpg");
+    background-size: 700px;
+    width: 1300px;
+    height: 8000px;
+    border: 1px solid;
 }
 
 h1 {
-    text-align: center;
-    font-size: 35px;
-    color: red
-}
-
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 50px;
+    font-family: Tacoma;
     color: darkblue
 }
 
+h2 {
+    font-size: 30px;
+    font-family: Tacoma;
+    color: purple
+}
+
+.p style {
+    font-size: 30px;
+    font-family: Tacoma;
+    color: darkblue
+}
+
+#movies {
+    background-color: yellow;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#filmsDiv {
+    margin: 60px;
+    color: rgb(60, 31, 32);
+    background-color: lightblue;
+}
+
 p {
-    text-align: left;
-    font-size: 40px;
+    font-size: 20px
 }
-
-h3 {
-    color: darkred;
-    text-align: center;
-    font-size: 15px;
-}
-
-h4 {
-    color: purple;
-    text-align: center;
-    font-size: 25px;
-}
-
-h5 {
-    color: darkviolet;
-    text-align: top;
-    font-size: 25px;
-}
-
-h6 {
-    color: darkgreen;
-    text-align: center;
-    font-size: 25px;
-}
-
-p {
-    font-size: 10px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 46.12%;
-    padding: 5px;
-}
-
-
-/* Clearfix (clear floats) */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-</style></head>clear: both;
-display: table;
-
-}
-</style></head>
